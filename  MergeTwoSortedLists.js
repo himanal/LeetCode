@@ -9,7 +9,7 @@ class ListNode {
 
 var mergeTwoLists = function(list1, list2) {
 
-let dummy =  new ListNode(-1)
+let dummy =  new ListNode(-Infinity)
 const prev = dummy
 
     while( list1 !==null && list2 !==null){
